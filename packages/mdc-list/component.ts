@@ -117,7 +117,8 @@ export class MDCList extends MDCComponent<MDCListFoundation> {
     this.focusInEventListener = this.handleFocusInEvent.bind(this);
     this.focusOutEventListener = this.handleFocusOutEvent.bind(this);
     this.listen('keydown', this.handleKeydown);
-    this.listen('click', this.handleClick);
+    // this.listen('click', this.handleClick);
+    this.listen('click'
     this.listen('focusin', this.focusInEventListener);
     this.listen('focusout', this.focusOutEventListener);
     this.layout();
